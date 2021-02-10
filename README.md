@@ -1,2 +1,2 @@
-# Quiz-application
-Master-linux application
+# Tasks-application
+Master linux -task
