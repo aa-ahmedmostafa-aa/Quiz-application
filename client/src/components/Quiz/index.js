@@ -57,7 +57,7 @@ export default function Quiz(props) {
       ) : error ? (
         <h2>{error}</h2>
       ) : (
-        <div className="bg-white w-50 m-auto shadow-lg rounded-lg  overflow-auto">
+        <div className="bg-white col-md-6 m-auto shadow-lg rounded-lg  overflow-auto">
           <div className=" bg-light border-bottom">
             <h1 className="p-3 text-spec text-center">{`Welcome  ${name}`}</h1>
             <h3 className="p-3 text-spec text-center">Quiz Sporting</h3>

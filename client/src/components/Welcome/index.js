@@ -20,7 +20,7 @@ export default function Welcome(props) {
   };
 
   return (
-    <div className="bg-white w-50 m-auto shadow-lg rounded-lg  overflow-auto">
+    <div className="bg-white col-md-6 m-auto shadow-lg rounded-lg  overflow-auto">
       <div className=" bg-light border-bottom">
         <h1 className="p-3 text-spec text-center">
           Welcome to Master Linux Task{" "}
@@ -45,7 +45,7 @@ export default function Welcome(props) {
 
         {validate && (
           <div className="alert alert-danger mt-3">
-            Please Choose Your Answer
+            Please Enter Your Name 
           </div>
         )}
 

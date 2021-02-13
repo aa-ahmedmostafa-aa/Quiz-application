@@ -7,7 +7,7 @@ export const getQuestitions = () => async (dispatch) => {
     payload:[]
   });
   try {
-    const { data } = await axios.get("http://localhost:5000/api/question");
+    const { data } = await axios.get("https://master-linux-api.herokuapp.com/api/question");
     dispatch({
       type: QuizActionType.QUIZ_SUCCESS,
       payload: data,

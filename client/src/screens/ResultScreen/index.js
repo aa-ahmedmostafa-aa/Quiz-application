@@ -15,7 +15,7 @@ export default function ResultScreen() {
   
   return (
     <section className="mt-5">
-      <div className="bg-white w-50 m-auto shadow-lg rounded overflow-auto text-center">
+      <div className="bg-white col-md-6 m-auto shadow-lg rounded overflow-auto text-center">
         <h1 className=" text-spec py-5 bg-light border-bottom">Finshed</h1>
         <div className="p-4">
           <h5 className=" text-spec"> score</h5>
